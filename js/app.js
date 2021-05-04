@@ -29,9 +29,10 @@ Location.prototype.calcCookiesEachHour = function() {
                 this.total += this.cookiesEachHour[i];
                 console.log(this.cookiesEachHour);
                 console.log(this);
-            }}                
-
+            }}            
+        }
 let container = document.getElementById('parent')
+        
 
 Location.prototype.render = function() {
     this.calcCustomersEachHour();
